@@ -120,7 +120,7 @@ The evaluation suite measures structure detection, OCR quality (CER, WER, item
 accuracy), retrieval quality and marking agreement (MAE, RMSE, weighted kappa,
 Spearman) against hand-marked ground truth.
 
-## Documentation
+<!-- ## Documentation
 
 | File | What it covers |
 | --- | --- |
@@ -128,7 +128,7 @@ Spearman) against hand-marked ground truth.
 | [docs/api.md](docs/api.md) | every endpoint, request and response |
 | [docs/code_guide.md](docs/code_guide.md) | what each file does, function by function |
 | [docs/viva_qa.md](docs/viva_qa.md) | likely questions and short answers |
-| [docs/ollama_setup.md](docs/ollama_setup.md) | installing Ollama and the models |
+| [docs/ollama_setup.md](docs/ollama_setup.md) | installing Ollama and the models | -->
 
 ## Limits
 
