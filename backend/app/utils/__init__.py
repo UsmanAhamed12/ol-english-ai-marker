@@ -1,0 +1,1 @@
+"""Small helpers with no knowledge of FastAPI, the database or the model."""

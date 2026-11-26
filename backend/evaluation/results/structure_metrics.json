@@ -1,0 +1,40 @@
+{
+  "papers": 3,
+  "expected_tests": 48,
+  "true_positive": 43,
+  "false_positive": 0,
+  "false_negative": 5,
+  "precision": 1.0,
+  "recall": 0.896,
+  "f1": 0.945,
+  "per_paper": [
+    {
+      "paper_id": "S01",
+      "expected": 16,
+      "detected": 16,
+      "missed": [],
+      "spurious": []
+    },
+    {
+      "paper_id": "S04",
+      "expected": 16,
+      "detected": 13,
+      "missed": [
+        "14",
+        "15",
+        "16"
+      ],
+      "spurious": []
+    },
+    {
+      "paper_id": "S11",
+      "expected": 16,
+      "detected": 14,
+      "missed": [
+        "15",
+        "16"
+      ],
+      "spurious": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "papers": 20,
+  "mae": 5.85,
+  "rmse": 6.28,
+  "bias": -0.45,
+  "qwk": 0.92,
+  "pearson": 0.963,
+  "spearman": 0.955,
+  "band_accuracy": 0.65,
+  "macro_f1": 0.538,
+  "micro_f1": 0.65,
+  "per_band": {
+    "A": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.857,
+      "support": 3
+    },
+    "B": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    },
+    "C": {
+      "precision": 0.333,
+      "recall": 0.333,
+      "f1": 0.333,
+      "support": 3
+    },
+    "S": {
+      "precision": 0.667,
+      "recall": 0.667,
+      "f1": 0.667,
+      "support": 6
+    },
+    "F": {
+      "precision": 0.833,
+      "recall": 0.833,
+      "f1": 0.833,
+      "support": 6
+    }
+  },
+  "within_5_marks": 0.45,
+  "within_10_marks": 0.95,
+  "largest_difference": {
+    "paper_id": "S10",
+    "human": 49.0,
+    "system": 38.0,
+    "difference": 11.0
+  }
+}

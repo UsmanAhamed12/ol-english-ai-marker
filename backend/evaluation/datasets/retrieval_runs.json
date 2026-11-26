@@ -1,0 +1,90 @@
+{
+  "k": 8,
+  "note": "Twelve rubric queries taken from real marking runs, with the chunks each retriever returned. Recompute with: python -m evaluation.evaluate_retrieval",
+  "cases": [
+    {
+      "id": "T1",
+      "query": "Test 1 match the words in column A with their meanings in column B one mark each",
+      "relevant": ["O/L English marking scheme 2022"],
+      "lexical": ["O/L English past paper 2019", "O/L English syllabus (Grade 10-11)", "O/L English marking scheme 2022", "Teacher guidance: marking writing tests", "Worked example · O/L English paper", "O/L English past paper 2021", "O/L English marking scheme 2019", "Teacher guidance: item writing"],
+      "dense": ["O/L English marking scheme 2022", "O/L English marking scheme 2019", "O/L English past paper 2019", "Teacher guidance: item writing", "O/L English syllabus (Grade 10-11)", "Worked example · O/L English paper", "O/L English past paper 2021", "Teacher guidance: marking writing tests"]
+    },
+    {
+      "id": "T2",
+      "query": "Test 2 fill in the blanks with the words given spelling must be correct",
+      "relevant": ["O/L English marking scheme 2022"],
+      "lexical": ["O/L English syllabus (Grade 10-11)", "O/L English past paper 2019", "O/L English marking scheme 2022", "Teacher guidance: marking writing tests", "O/L English past paper 2021", "Worked example · O/L English paper", "Teacher guidance: item writing", "O/L English marking scheme 2019"],
+      "dense": ["O/L English marking scheme 2022", "O/L English past paper 2019", "O/L English marking scheme 2019", "Teacher guidance: item writing", "O/L English syllabus (Grade 10-11)", "Worked example · O/L English paper", "O/L English past paper 2021", "Teacher guidance: marking writing tests"]
+    },
+    {
+      "id": "T3",
+      "query": "Test 3 underline the correct answer articles a an the half mark each",
+      "relevant": ["O/L English marking scheme 2022"],
+      "lexical": ["Teacher guidance: marking writing tests", "O/L English past paper 2021", "O/L English syllabus (Grade 10-11)", "O/L English marking scheme 2022", "O/L English past paper 2019", "Worked example · O/L English paper", "Teacher guidance: item writing", "O/L English marking scheme 2019"],
+      "dense": ["O/L English syllabus (Grade 10-11)", "O/L English marking scheme 2022", "O/L English past paper 2021", "O/L English marking scheme 2019", "Teacher guidance: item writing", "O/L English past paper 2019", "Worked example · O/L English paper", "Teacher guidance: marking writing tests"]
+    },
+    {
+      "id": "T6",
+      "query": "Test 6 write an announcement for the school notice board train delay forty to fifty words",
+      "relevant": ["O/L English marking scheme 2022", "Teacher guidance: marking writing tests"],
+      "lexical": ["O/L English past paper 2019", "O/L English syllabus (Grade 10-11)", "O/L English marking scheme 2022", "Teacher guidance: marking writing tests", "O/L English past paper 2021", "Worked example · O/L English paper", "O/L English marking scheme 2019", "Teacher guidance: item writing"],
+      "dense": ["O/L English marking scheme 2022", "Teacher guidance: marking writing tests", "Worked example · O/L English paper", "O/L English past paper 2019", "O/L English marking scheme 2019", "O/L English syllabus (Grade 10-11)", "O/L English past paper 2021", "Teacher guidance: item writing"]
+    },
+    {
+      "id": "T8",
+      "query": "Test 8 write a paragraph on one of the given topics fifty to sixty words relevance and language",
+      "relevant": ["O/L English marking scheme 2022", "Teacher guidance: marking writing tests"],
+      "lexical": ["O/L English syllabus (Grade 10-11)", "O/L English past paper 2021", "O/L English past paper 2019", "O/L English marking scheme 2022", "Teacher guidance: marking writing tests", "Worked example · O/L English paper", "Teacher guidance: item writing", "O/L English marking scheme 2019"],
+      "dense": ["Teacher guidance: marking writing tests", "O/L English marking scheme 2022", "Worked example · O/L English paper", "O/L English past paper 2021", "O/L English marking scheme 2019", "O/L English syllabus (Grade 10-11)", "O/L English past paper 2019", "Teacher guidance: item writing"]
+    },
+    {
+      "id": "T12",
+      "query": "Test 12 underline the word with the correct spelling one mark each",
+      "relevant": ["O/L English marking scheme 2022"],
+      "lexical": ["O/L English past paper 2019", "O/L English syllabus (Grade 10-11)", "O/L English past paper 2021", "Teacher guidance: item writing", "O/L English marking scheme 2022", "Teacher guidance: marking writing tests", "Worked example · O/L English paper", "O/L English marking scheme 2019"],
+      "dense": ["O/L English marking scheme 2019", "O/L English marking scheme 2022", "O/L English syllabus (Grade 10-11)", "O/L English past paper 2021", "Teacher guidance: item writing", "O/L English past paper 2019", "Worked example · O/L English paper", "Teacher guidance: marking writing tests"]
+    },
+    {
+      "id": "T14",
+      "query": "Test 14 write a letter to your friend about the sports meet content language organisation mechanics CLOM marks",
+      "relevant": ["O/L English marking scheme 2022", "Teacher guidance: marking writing tests"],
+      "lexical": ["O/L English syllabus (Grade 10-11)", "O/L English past paper 2019", "O/L English past paper 2021", "O/L English marking scheme 2022", "Teacher guidance: marking writing tests", "Worked example · O/L English paper", "Teacher guidance: item writing", "O/L English marking scheme 2019"],
+      "dense": ["Teacher guidance: marking writing tests", "O/L English marking scheme 2022", "Worked example · O/L English paper", "O/L English past paper 2021", "O/L English marking scheme 2019", "O/L English syllabus (Grade 10-11)", "O/L English past paper 2019", "Teacher guidance: item writing"]
+    },
+    {
+      "id": "T15",
+      "query": "Test 15 read the passage and answer the questions in full sentences comprehension",
+      "relevant": ["O/L English marking scheme 2022", "O/L English past paper 2021"],
+      "lexical": ["O/L English past paper 2019", "O/L English syllabus (Grade 10-11)", "O/L English past paper 2021", "O/L English marking scheme 2022", "Teacher guidance: marking writing tests", "Worked example · O/L English paper", "Teacher guidance: item writing", "O/L English marking scheme 2019"],
+      "dense": ["O/L English marking scheme 2022", "O/L English past paper 2021", "O/L English past paper 2019", "Worked example · O/L English paper", "O/L English marking scheme 2019", "O/L English syllabus (Grade 10-11)", "Teacher guidance: marking writing tests", "Teacher guidance: item writing"]
+    },
+    {
+      "id": "T16",
+      "query": "Test 16 write a story or article of about one hundred and fifty words for the school magazine",
+      "relevant": ["O/L English marking scheme 2022", "Teacher guidance: marking writing tests"],
+      "lexical": ["O/L English syllabus (Grade 10-11)", "O/L English past paper 2019", "O/L English past paper 2021", "Teacher guidance: item writing", "O/L English marking scheme 2022", "Teacher guidance: marking writing tests", "Worked example · O/L English paper", "O/L English marking scheme 2019"],
+      "dense": ["O/L English marking scheme 2022", "Teacher guidance: marking writing tests", "Worked example · O/L English paper", "O/L English past paper 2021", "O/L English marking scheme 2019", "O/L English syllabus (Grade 10-11)", "O/L English past paper 2019", "Teacher guidance: item writing"]
+    },
+    {
+      "id": "S1",
+      "query": "how many marks are given for content in the letter writing test",
+      "relevant": ["O/L English marking scheme 2022"],
+      "lexical": ["O/L English syllabus (Grade 10-11)", "Teacher guidance: item writing", "O/L English past paper 2019", "O/L English past paper 2021", "Teacher guidance: marking writing tests", "O/L English marking scheme 2022", "Worked example · O/L English paper", "O/L English marking scheme 2019"],
+      "dense": ["O/L English marking scheme 2022", "Teacher guidance: marking writing tests", "O/L English syllabus (Grade 10-11)", "O/L English marking scheme 2019", "Teacher guidance: item writing", "O/L English past paper 2021", "Worked example · O/L English paper", "O/L English past paper 2019"]
+    },
+    {
+      "id": "S2",
+      "query": "present perfect against simple past when describing finished actions syllabus objective",
+      "relevant": ["O/L English syllabus (Grade 10-11)"],
+      "lexical": ["O/L English past paper 2019", "O/L English marking scheme 2022", "O/L English past paper 2021", "Teacher guidance: marking writing tests", "O/L English syllabus (Grade 10-11)", "Worked example · O/L English paper", "Teacher guidance: item writing", "O/L English marking scheme 2019"],
+      "dense": ["O/L English syllabus (Grade 10-11)", "Teacher guidance: item writing", "O/L English marking scheme 2022", "O/L English past paper 2021", "Teacher guidance: marking writing tests", "O/L English marking scheme 2019", "Worked example · O/L English paper", "O/L English past paper 2019"]
+    },
+    {
+      "id": "S3",
+      "query": "how should a weak answer be written up for the moderation panel",
+      "relevant": ["Teacher guidance: marking writing tests", "Worked example · O/L English paper"],
+      "lexical": ["O/L English marking scheme 2022", "O/L English syllabus (Grade 10-11)", "O/L English past paper 2019", "Teacher guidance: item writing", "O/L English past paper 2021", "Teacher guidance: marking writing tests", "Worked example · O/L English paper", "O/L English marking scheme 2019"],
+      "dense": ["Teacher guidance: marking writing tests", "Worked example · O/L English paper", "O/L English marking scheme 2022", "Teacher guidance: item writing", "O/L English syllabus (Grade 10-11)", "O/L English past paper 2021", "O/L English marking scheme 2019", "O/L English past paper 2019"]
+    }
+  ]
+}
